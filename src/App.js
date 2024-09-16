@@ -188,6 +188,8 @@ export default function App(props) {
       newData.total_projects=sheetData.length
       console.log('new Data',newData)
       setData(newData);
+      setGroupData(null)
+      setProjectData(null)
     };
     if(file){
       reader.readAsBinaryString(file);
