@@ -223,7 +223,7 @@ export default function App(props) {
       </div>}
     </div>
 
-    <div style={{display:"flex",gap:"2rem"}} className="flex gap-8">
+    <div style={{display:"flex",gap:"2rem",justifyContent:"center"}} className="flex gap-8">
     {datas && !groupData && <BubbleUI
         options={options}
         className={"myBubbleUI"}
